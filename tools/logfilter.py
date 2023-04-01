@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # this is a filter meant to be used with a logfile containing
 # debug output from wpa_supplicant or reaver, which extracts
@@ -7,7 +7,8 @@
 
 import sys, os
 
-class Data():
+
+class Data:
 	def __init__(self):
 		self.pke = ''
 		self.pkr = ''
